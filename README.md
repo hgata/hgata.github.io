@@ -2,4 +2,4 @@
 
 GithubPages上に作成した Hiro.Ogataのプロフィールページです。
 
-!(https://hgata.github.io/
+https://hgata.github.io/
