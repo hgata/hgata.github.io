@@ -5,17 +5,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Hiro.Ogata's Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <h1>Hiro.Ogata's Profile</h1>
-  <img src="img/hgata-port-mono.png" alt="Profile Image" width="300px" />
-  <p>
-    このページは GitHub Pages にて作成した<br />
-    Hiro.Ogata のプロフィールページです。<br />
-    現在は内容が充実しておらず、すみません。<br />
-    ※写真は若いころのもので現在と違います。ご了承ください
-  </p>
+  <div class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold">Hiro.Ogata's Profile</h1>
+    <div class="flex">
+      <img src="img/hgata-port-mono.png" class="py-4" alt="Profile Image" width="300px" />
+      <div>
+        <p class="py-4 pl-8">
+          このページは GitHub Pages にて作成した<br /> Hiro.Ogata のプロフィールページです。
+        </p>
+        <p class="py-4 pl-8">
+          ※写真は若いころのもので現在と若干違います。
+        </p>
+      </div>
+    </div>
 </body>
 
 </html>
