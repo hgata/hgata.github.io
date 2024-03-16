@@ -26,7 +26,9 @@ JC-HITS が内々で C-CAS 信号を 2030 年まで流すことを約束して�
   - MVNO 使用料
   - 携帯電話調達料　など？
 
-![ロゴ](./img/hgata-logo.jpg)
+![ロゴ](./img/hgata-logo.png)
+
+![数式](./img/shiki-samp.drawio.png)
 
 ## 3. FTTH 集合住宅対応について
 
