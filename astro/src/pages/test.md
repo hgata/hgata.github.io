@@ -1,8 +1,8 @@
 ---
-layout: ../layouts/Layout4Markdown.astro
-title: "JWAY Hearing"
+title: "JWAY HEARING"
 author: "hiro.ogata"
 date: "2024/3/16"
+layout: ../layouts/Layout4Markdown.astro
 ---
 
 # 🖊️ JWAY ヒアリング案
@@ -26,14 +26,16 @@ JC-HITS が内々で C-CAS 信号を 2030 年まで流すことを約束して�
 - 採算性について。薄利多売の MVNO の商品戦略
 - どれくらいの期間で黒字化を考えているか
 - 初期費用について
+
   - 顧客管理システムの改修
   - MVNO システムのイニシャル費用
+
 - 月額の MVNO 運用にかかる費用について
 
   - MVNO 使用料
   - 携帯電話調達料　など？
 
-### コードのサンプル
+### コードのサンプル 💻
 
 ```js title='hello world'
 import readline as rl from "readline";
@@ -44,7 +46,7 @@ console.log("Hello!");
 % ls -al
 ```
 
-### 表のサンプル
+### 表のサンプル 🗒️
 
 |            画像１            |               画像２                |
 | :--------------------------: | :---------------------------------: |
