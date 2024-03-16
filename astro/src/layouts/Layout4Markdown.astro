@@ -1,0 +1,32 @@
+---
+const { frontmatter } = Astro.props;
+---
+<html>
+  <head>
+    <title>{frontmatter.title}</title>
+  </head>
+  
+  <body>
+    <!-- <p>タイトル: {frontmatter.title}  <br />執筆者: {frontmatter.author}</p> -->
+ 
+    <slot />
+ 
+    <!-- <p>投稿日: {frontmatter.date}</p> -->
+  </body>
+</html>
+
+<style is:global>
+    body{margin: 0 1.5rem;}
+    
+    h1{color:brown;}
+
+    table{
+        margin: 0.5rem;
+        border: solid 2px #ccc;
+        th {background-color: gainsboro;}
+        td{background-color: #f2f2f2;}
+    }
+
+    .expressive-code {margin: 1rem 0.5rem;}
+    
+</style>

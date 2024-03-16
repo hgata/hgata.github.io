@@ -1,10 +1,19 @@
 import { defineConfig } from "astro/config";
+import expressiveCode from "astro-expressive-code";
+import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 
-// https://astro.build/config
 export default defineConfig({
-  base: '/astro/notes',
-  outDir: './notes/',
+  base: "/astro/notes",
+  outDir: "./notes/",
   build: {
-    assets: 'assets',
+    assets: "assets",
   },
+  integrations: [
+    expressiveCode({
+      plugins: [pluginLineNumbers()],
+      defaultProps: {
+        showLineNumbers: false,
+      },
+    }),
+  ],
 });
