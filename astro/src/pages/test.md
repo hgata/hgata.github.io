@@ -28,7 +28,7 @@ JC-HITS が内々で C-CAS 信号を 2030 年まで流すことを約束して�
 
 |            画像１             |                画像２                |
 | :---------------------------: | :----------------------------------: |
-| ![ロゴ](./img/hgata-logo.png) | ![数式](./img/shiki-samp.drawio.png) |
+| ![ロゴ](./img/hgata_logo.png) | ![数式](./img/shiki_samp.drawio.png) |
 
 ## 3. FTTH 集合住宅対応について
 
