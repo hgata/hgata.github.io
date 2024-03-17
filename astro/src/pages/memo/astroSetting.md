@@ -16,7 +16,6 @@ layout: ../../layouts/Layout4Markdown.astro
 npm create astro@latest
 ```
 
-
 ---
 
 ## 🔈 Astro からのお知らせ
