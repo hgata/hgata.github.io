@@ -16,9 +16,13 @@ layout: ../../layouts/Layout4Markdown.astro
 npm create astro@latest
 ```
 
+$$
+f(x)=x^2 + 2 x + 1 
+$$
+
 ---
 
 ## 🔈 Astro からのお知らせ
 
-> 🏛️ホームページのＵＲＬ
+> ホームページのURL🔗
 >  https://astro.build/
