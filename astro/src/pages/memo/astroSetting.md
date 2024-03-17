@@ -17,7 +17,7 @@ npm create astro@latest
 ```
 
 $$
-f(x)=x^2 + 2 x + 1 
+f(x)=x^2 + 2 x + 1 =(x+1)^2=9 \space \space \therefore x=2,-4 
 $$
 
 ---

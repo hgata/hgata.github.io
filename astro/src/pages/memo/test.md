@@ -2,7 +2,7 @@
 title: "JWAY HEARING"
 author: "hiro.ogata"
 date: "2024/3/16"
-layout: ../layouts/Layout4Markdown.astro
+layout: ../../layouts/Layout4Markdown.astro
 ---
 
 # 🖊️ JWAY ヒアリング案
