@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    
+    <!-- ############################## -->
+
+    <script src="https://unpkg.com/react@latest/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- ### JSX記法を使うためにbabelを使う ### -->
+    <script type="text/babel">
+      // Reactコンポーネントのコードをここに書く
+      const App = () => {
+        return (
+          <>
+            <div className="container p-8">
+              <Title />
+              <p>これは１ページでReactを書くhtmlのサンプルコードです。</p>
+            </div>
+          </>
+        );
+      };
+
+      const Title = () => {
+        return(
+            <h1 className="text-4xl mb-4">こんにちは Reactの世界！</h1>
+        )
+      }
+
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+    </script>
+  </body>
+</html>
